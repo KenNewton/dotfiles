@@ -13,12 +13,12 @@ function installcask() {
 #installcask transmission
 #installcask ukelele
 #installcask virtualbox
+#installcask dropbox
+#installcask imagealpha
+#installcask imageoptim
 
-installcask dropbox
 installcask google-chrome
 installcask google-chrome-canary
-installcask imagealpha
-installcask imageoptim
 installcask sublime-text
 installcask vlc
 installcask macvim
