@@ -1,0 +1,22 @@
+# PATH like a bawss
+# bin/sbin Overrides
+      PATH=/usr/local/bin
+PATH=$PATH:/usr/local/opt/
+PATH=$PATH:/usr/bin
+PATH=$PATH:~/bin
+PATH=$PATH:/bin
+PATH=$PATH:/usr/local/sbin 
+PATH=$PATH:/usr/sbin 
+PATH=$PATH:/sbin
+#mysql
+PATH=$PATH:/usr/local/mysql/bin
+# Add RVM to PATH for scripting
+PATH=$PATH:~/.rvm/bin
+PATH=$PATH:~/.rvm/gems/ruby-2.1.0/bin
+PATH=$PATH:~/.rvm/gems/ruby-2.1.0@global/bin
+PATH=$PATH:~/.rvm/rubies/ruby-2.1.0/bin
+# Add gnu
+PATH=$PATH:/usr/local/opt/coreutils/libexec/gnubin
+# ...
+
+export PATH

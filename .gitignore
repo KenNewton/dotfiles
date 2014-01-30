@@ -1,34 +1,18 @@
-*~
+# Compiled Python files
 *.pyc
-*.pyo
-*.tmp*
-*.mo
-*.egg
-*.EGG
-*.egg-info
-*.EGG-INFO
-*.kpf
-*.swp
-*.wpr
-.*.cfg
-.installed.cfg
-.mr.developer.cfg
-.hg/
-.bzr/
-.svn/
-.project
-.pydevproject
-bin/
-build/
-develop-eggs/
-downloads/
-eggs/
-fake-eggs/
-parts/
-dist/
-var/
 
-
-
-# OSX
+# Folder view configuration files
 .DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+#Other
+.extra
+.profile

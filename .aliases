@@ -1,9 +1,9 @@
 # Easier navigation: .., ..., ...., ....., ~ and -
-alias ..='cd ..; ls'
-alias ...='cd ../../; ls'
-alias ....='cd ../../../; ls'
-alias .....='cd ../../../../; ls'
-alias ......='cd ../../../../../; ls'
+alias ..='cd ..; lsa'
+alias ...='cd ../../; lsa'
+alias ....='cd ../../../; lsa'
+alias .....='cd ../../../../; lsa'
+alias ......='cd ../../../../../; lsa'
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
@@ -14,7 +14,7 @@ alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
 alias g="git"
 alias h="history"
-alias ht='cd /Applications/MAMP/htdocs;ls'
+alias ht='cd /Applications/MAMP/htdocs;lsa'
 #alias j="jobs"
 
 #Command Aliases
