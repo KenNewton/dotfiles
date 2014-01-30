@@ -16,6 +16,7 @@ alias g="git"
 alias h="history"
 alias dot="cd ~/dotfiles/kennewton/dotfiles"
 alias ht='cd /Applications/MAMP/htdocs;lsa'
+alias ape='cd /Applications/MAMP/htdocs/tnprc-patternlab-php;lsa'
 #alias j="jobs"
 
 #Command Aliases
