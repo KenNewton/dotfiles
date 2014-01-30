@@ -139,7 +139,7 @@ function fs() {
 
 function clone {
   # customize username to your own 
-  local username="addyosmani"
+  local username="kennewton"
 
   local url=$1;
   local repo=$2;
