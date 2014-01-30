@@ -18,7 +18,7 @@ alias ht='cd /Applications/MAMP/htdocs;lsa'
 #alias j="jobs"
 
 #Command Aliases
-alias c='clear'
+alias cl='clear'
 #ls modifier
 alias lsa='ls -alvGFh'
 #list dir as tree
