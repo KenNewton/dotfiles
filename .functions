@@ -53,7 +53,7 @@ function cdd()
     dirr;
 }
 
-#### Compression 
+#### Compression
 
 # Create a .tar.gz archive, using `zopfli`, `pigz` or `gzip` for compression
 function targz() {
@@ -116,7 +116,7 @@ function fs() {
 # Based on https://github.com/stephenplusplus/dots/blob/master/.bash_profile#L68 by @stephenplusplus
 #
 # Note: subl is already setup as a shortcut to Sublime. Replace with your own editor if different
-# 
+#
 # - arg 1 - url|username|repo remote endpoint, username on github, or name of
 #           repository.
 # - arg 2 - (optional) name of repo
@@ -138,7 +138,7 @@ function fs() {
 #     .. subl .
 
 function clone {
-  # customize username to your own 
+  # customize username to your own
   local username="kennewton"
 
   local url=$1;
@@ -432,12 +432,12 @@ function httpcompression() {
     encoding="$(curl -LIs -H 'User-Agent: Mozilla/5 Gecko' -H 'Accept-Encoding: gzip,deflate,compress,sdch' "$1" | grep '^Content-Encoding:')" && echo "$1 is encoded using ${encoding#* }" || echo "$1 is not using any encoding"
 }
 
-#'spy' returns list of open internet sockets, 
-#optionally filter (via grep) for host/process/user/etc by adding an argument. 
-#Use '-n' before the pipe to disable dns resolution, 
+#'spy' returns list of open internet sockets,
+#optionally filter (via grep) for host/process/user/etc by adding an argument.
+#Use '-n' before the pipe to disable dns resolution,
 #or use your favorite incantation of 'lsof'.
-function spy () { 
-    lsof -i -P +c 0 +M | grep -i "$1"; 
+function spy () {
+    lsof -i -P +c 0 +M | grep -i "$1";
 }
 
 #find open ports
