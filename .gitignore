@@ -16,3 +16,6 @@ Thumbs.db
 #Other
 .extra
 .profile
+
+#node and other
+node_modules
