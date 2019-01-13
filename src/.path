@@ -1,0 +1,18 @@
+# PATH like a bawss
+# bin/sbin Overrides
+      PATH=/usr/local/bin
+PATH=$PATH:/usr/local/opt/
+PATH=$PATH:/usr/bin
+PATH=$PATH:~/bin
+PATH=$PATH:/bin
+PATH=$PATH:/usr/local/sbin
+PATH=$PATH:/usr/sbin
+PATH=$PATH:/sbin
+PATH=$PATH:/usr/local/Cellar/graphicsmagick/1.3.31/bin
+# http://stackoverflow.com/questions/13804382/how-to-automatically-run-bin-bash-login-automatically-in-the-embeded-termin
+#[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+# Setting PATH for Python 3.7
+# The original version is saved in .bash_profile.pysave
+PATH=$PATH:/Library/Frameworks/Python.framework/Versions/3.7/bin
+
+export PATH
