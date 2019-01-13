@@ -1,8 +1,11 @@
-var project = require('./_project.js');
-var gulp    = require('gulp');
-var pump    = require('pump');
+var os = require('os'),
+    path = require('path');
+var homeDir = os.homedir();
+var distDir = './dist/';
+var srcDir = './src/.*';
 
-gulp.task('copy3', function () {
-  gulp.src('./src')
-      .pipe(gulp.dest('./dist'));
+gulp.task('copy', function (done) {
+    gulp.src(srcDir)
+    .pipe(gulp.dest(distDir));
+    done();
 });
